@@ -18,6 +18,7 @@ body{
     align-self:center;
     padding:11px 0px;
     margin-top:-1.2rem;
+    font-weight: bold;
 }
 .read-more-button-commons{
     background-color:#C1F7D5;
@@ -107,7 +108,7 @@ a{
     color:#ffffff;
 }
 .the-issue-threats{
-    font-size:22px;
+    font-size:15px;
     font-weight:bold;
     text-align:center;
 }
@@ -120,7 +121,7 @@ a{
     padding:52px 24px 30px 32px;
     display:flex;
     flex-direction:column;
-    gap:65px;
+    gap:60px;
 }
 .mission-title-container{
     display:flex;
@@ -134,7 +135,7 @@ a{
     background-color:white;
 }
 .about-mission{
-    font-size:22px;
+    font-size:17px;
     color:white;
     width:330px;
     text-align:center;
@@ -161,12 +162,12 @@ a{
     text-decoration:none;
 }
 .values-topic{
-    font-size:16px;
+    font-size:13px;
     font-weight:bold;
     color:white;
 }
 .values-common-para{
-    font-size:14px;
+    font-size:12px;
     color:white;
 }
 
@@ -260,7 +261,7 @@ a{
     padding:32px 22px 62px 22px;
     display:flex;
     flex-direction:column;
-    gap:33px;
+    gap:30px;
     color:white;
     margin:auto;
 }
@@ -284,29 +285,30 @@ a{
 }
 .impact-body{
     display:grid;
-    grid-template-rows:repeat(4, 82px);
-    grid-template-columns:160px;
-    gap:34px;
+    grid-template-rows:repeat(4, 100px);
+    grid-template-columns:190px;
+    gap:20px;
+    align-items: center;
     align-self:center;
     justify-items:center;
 }
-.impact-on-forest-container,.impact-on-women-container{
+.common-container{
     display:flex;
     flex-direction:column;
-    gap:2px;
+    gap:5px;
     text-align:center;
 }
-.impact-tree-number,.impact-women-number{
+.common-count{
     font-family:"flood-std", sans-serif;
     font-size:44px;
     text-align:center;
 
 }
-.about-impact-tree,.about-impact-women{
+.common-about{
     font-size:16px;
     font-weight:bold;
 }
-.impact-on-women-container{
+.impact-on-crop-recommendation-container{
     width:138px;
 }
 
@@ -364,6 +366,7 @@ a{
 .action-for-future-body-subHeading{
     font-size:22px;
     font-weight:bold;
+    height:65px;
 }
 .about-action-for-future-body{
     font-size:16px;
@@ -376,7 +379,7 @@ a{
 display:none;
 }
 
-        /*subscription*/
+                /*subscription*/
 .subscription-container-background{
     background-color:#C1F7D5;
 }
@@ -389,8 +392,7 @@ display:none;
     width:20.75rem;
 }
 .about-subscription{
-    font-size:1.4375rem;
-    font-weight:bold;
+    font-size:1rem;
     width:20.125rem;
     margin-left:0.3125rem;
 }
@@ -400,20 +402,21 @@ display:none;
     justify-content:space-between;
 }
 .subscription-email-input{
-    width:12rem;
+    width:14rem;
     height:2.5rem;
     border: 0rem solid white;
     border-radius:1.25rem;
     text-align:center;
 }
 .subscribe-button{
-    width:7rem;
+    width:6rem;
     height:2.5rem;
     background-color:#354463;
     color:#C1F7D5;
     border: 0rem solid #354463;
     border-radius:1.25rem;
     text-align:center;
+    font-size: 0.7rem;
 }
 
 /*last-page*/
@@ -454,7 +457,7 @@ display:none;
     font-size:0.875rem;
     text-decoration:underline;
 }
-.stop-climate-change-topic{
+.support-indian-farmers-topic{
     grid-row:3;
     grid-column:2;
     font-size:2.75rem;
@@ -531,7 +534,7 @@ display:none;
 .the-issue-threats{
 
     width:512px;
-    font-size:28px;
+    font-size:25px;
     text-align:start;
 }
 
@@ -562,7 +565,7 @@ display:none;
 
 }
 .values-topic{
-    font-size:22px;
+    font-size:20px;
 }
 
     /*team*/
@@ -643,17 +646,14 @@ display:none;
     column-gap:64px;
     width:640px;
 }
-.impact-on-forest-container,.impact-on-women-container{
+.common-container{
     gap:16px;
 }
-.impact-tree-number,.impact-women-number{
-    font-size:72px;
+.common-count{
+    font-size:70px;
 }
-.about-impact-tree,.about-impact-women{
+.common-about{
     font-size:22px;
-}
-.impact-on-women-container{
-    width:288px;
 }
 
     /*action-for-future*/
@@ -839,7 +839,7 @@ display:none;
 
     }
     .the-issue-threats{
-        font-size:28px;
+        font-size:25px;
         text-align:start;
     }
 
@@ -876,7 +876,7 @@ display:none;
     font-size:50px;
 }
 .values-topic{
-    font-size:28px;
+    font-size:25px;
 }
 .values-common-para{
     font-size:16px;
@@ -937,37 +937,38 @@ display:none;
 /*impact*/
 .impact-background{
     background-image:url("src//Impact Background@2x (2).png");
+    height: 36.5rem;
 
 }
 .impact-container{
-    padding:128px 144px;
-    gap:80px;
+    padding:100px 144px;
+    gap:50px;
 }
 .impact-header{
     gap:34px;
 
 }
 .impact-subHeading{
-    font-size:42px;
+    font-size:40px;
     width:742px;
 
 }
 .impact-body{
-    grid-template-rows:144px;
+    grid-template-rows:165px;
     grid-template-columns:repeat(4, 256px);
     column-gap:32px;
 }
-.impact-on-forest-container,.impact-on-women-container{
+.common-container{
     gap:16px;
 }
-.impact-tree-number,.impact-women-number{
-    font-size:72px;
-    height:55px;
+.common-count{
+    font-size:70px;
+    height:60px;
 }
-.about-impact-tree,.about-impact-women{
-    font-size:28px;
+.common-about{
+    font-size:22px;
 }
-.impact-on-women-container{
+.impact-on-crop-recommendation-container{
     width:288px;
 }
 
@@ -1057,7 +1058,7 @@ display:none;
 }
 .about-subscription{
     width:34rem;
-    font-size:1.75rem;
+    font-size:1.4rem;
     margin-left:0;
 }
 .subscribe-form{
@@ -1102,13 +1103,13 @@ display:none;
     grid-column:3;
     grid-row:1;
 }
-.stop-climate-change-topic{
+.support-indian-farmers-topic{
     grid-row:1;
     grid-column:5;
 }
 
 
-    }
+}
 
 
 
