@@ -32,9 +32,11 @@
             </ul>
         </div>
 
+        <div class="donate-button"><a href="Donation/index.html">Donate</a></div>
+        
         <div class="change-language">
-            <div class="english">En</div>
-            <div class="hindi hidden">Hi</div>
+            <div class="english common-lang">En</div>
+            <div class="hindi hidden common-lang">Hi</div>
         </div>
     </div>
 
@@ -59,7 +61,7 @@
                 </div>
 
                 <div class="read-more-cause" data-key="issueReadMore">
-                    Learn more about how KrishiMitra helps farmers make better decisions.
+                    <a href="./about-us/index.html#jump-to-about-us">Learn more about how KrishiMitra helps farmers make better decisions.</a>
                 </div>
 
             </div>
@@ -74,23 +76,36 @@
         <div class="take-action-grid">
 
             <div class="take-action-learn">
-                <div class="learn-heading" data-key="learnHeading">Learn</div>
-                <div class="learn-para" data-key="learnPara">Get the facts about this issue and how we’re helping.</div>
+                <a href="./about-us/#jump-to-impact" class="common-take-action-container">
+                    <div class="learn-heading" data-key="learnHeading">Learn</div>
+                    <div class="learn-para" data-key="learnPara">Get the facts about this issue and how we’re helping.</div>
+                </a>
             </div>
 
             <div class="take-action-volunteer">
-                <div class="volunteer-heading" data-key="volunteerHeading">Volunteer</div>
-                <div class="volunteer-para" data-key="volunteerPara">Find out about upcoming events that need your help.</div>
+                <a href="https://github.com/Rohit242524/KrishiMitra" target="_blank" class="common-take-action-container">
+                    <div class="volunteer-heading" data-key="volunteerHeading">Join Community</div>
+                    <div class="volunteer-para" data-key="volunteerPara">Join Github community.</div>
+                </a>    
             </div>
 
-            <div class="take-action-share">
+            <div class="take-action-share share-container">
                 <div class="share-heading" data-key="shareHeading">Share</div>
                 <div class="share-para" data-key="sharePara">Let your social media networks know about this important cause.</div>
+
+                <div class="share-dropdown">
+                    <div class="share-item whatsapp">Share on WhatsApp</div>
+                    <div class="share-item facebook">Share on Facebook</div>
+                    <div class="share-item instagram">Share on Instagram</div>
+                </div>
             </div>
 
-            <div class="take-action-donate">
-                <div class="donate-heading" data-key="donateHeading">Donate</div>
-                <div class="donate-para" data-key="donatePara">Help us raise money to make a big difference with this issue.</div>
+
+            <div class="take-action-donate common-take-action-container">
+                <a href="./Donation/index.html">
+                    <div class="donate-heading" data-key="donateHeading">Donate</div>
+                    <div class="donate-para" data-key="donatePara">Help us raise money to make a big difference with this issue.</div>
+                </a>    
             </div>
 
         </div>
@@ -115,7 +130,7 @@
                         <img src="home//src//education-training@2x.png" alt="soil-prediction-image">
                     </div>
                     <div class="soil-prediction-topic-box">
-                        <div class="soil-prediction-topic" data-key="treePlantingTopic">Soil Prediction</div>
+                        <div class="soil-prediction-topic" data-key="treePlantingTopic" id="soilPredictBtn">Soil Prediction</div>
                         <div class="about-soil-prediction" data-key="treePlantingPara">
                                 The system evaluates soil characteristics using machine learning to determine its category. This classification acts as the foundation for further crop and fertilizer recommendations.                            
                         </div>
@@ -129,7 +144,7 @@
                         <img src="home//src//advocacy@2x.png " alt="fertilizer-prediction-image">
                     </div>
                     <div class="fertilizer-prediction-topic-box">
-                        <div class="fertilizer-prediction-topic" data-key="educationTopic">Fertilizer Prediction</div>
+                        <div class="fertilizer-prediction-topic" data-key="educationTopic" id="fertPredictBtn">Fertilizer Prediction</div>
                         <div class="about-fertilizer-prediction" data-key="educationPara">
                                 Recommends the most suitable fertilizers by analyzing nutrient needs based on the predicted soil type. This ensures balanced crop growth and helps farmers avoid unnecessary or incorrect fertilizer usage.                            
                         </div>
@@ -146,7 +161,7 @@
                         <div class="about-crop-prediction" data-key="advocacyPara">
                                 The model suggests the most appropriate crops by matching soil characteristics with regional crop suitability. This helps farmers choose crops that grow better and provide higher yield potential on their land.                            
                         </div>
-                        <div class="crop-prediction-button read-more-button-commons" data-key="advocacyReadMore">Predict</div>
+                        <div class="crop-prediction-button read-more-button-commons" data-key="advocacyReadMore" id="cropPredictBtn">Predict</div>
                     </div>
                 </div>
 

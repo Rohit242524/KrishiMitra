@@ -18,7 +18,10 @@
     <!--header-->
     <div class="header">
         <div class="header-topic">
-            <a href="../index.html">The Green Trees Initiative</a>
+            <a href="../index.html">
+                <div class="heading-topic" data-key="siteName">KrishiMitra</div>
+                <div class="subheading-topic" data-key="subtitle">Smart, inclusive farm guidance</div>
+            </a>
         </div>
     </div>
 
@@ -74,36 +77,29 @@
                     </div>
                     <div class="form-payment-info form-common-headings">Payment information</div>
 
-                    <div class="form-credit-number form-common-hr">
-                        <label>CREDIT CARD NUMBER</label>
-                        <input type="number" placeholder="Credit card number" class="form-street-address-type ">
-                    </div>
+                     <div class="form-credit-number form-common-hr">
+                    <label>UPI ID (optional)</label>
+                    <input type="text" placeholder="example@upi" class="form-street-address-type">
+                </div>
+
                     <div class="form-expire-security-container">
-                        <div class="form-expire-date-container ">
-                            <label>FIRST EXPIRATION DATE</label>
-                            <div class="month-year-box ">
-                                <div class="form-expire-date form-common-hr">
-                                    <input type="number"  maxlength="2"  placeholder="MM" class="form-expire-security-input-type" >
-                                </div>
-                                <div class="form-expire-date form-common-hr">
-                                    <input type="number"  maxlength="2"  placeholder="YY" class="form-expire-security-input-type" >
-                                </div>
-                            </div>
-                        </div>
+                        
                         <div class="form-security-code form-common-hr">
-                            <label>SECURITY CODE</label>
-                            <input type="password" placeholder="CVC" class="form-name-input-type ">
+                            <label>AMOUNT</label>
+                            <input type="text" placeholder="₹10 (Test Payment)" class="form-name-input-type" value="₹10" required>
                         </div>
                     </div>
 
-                    <div class="form-confirm-donation form-common-headings">Click the button to confirm your donation of $10, recurring monthly.</div>
+                    <div class="form-confirm-donation form-common-headings">
+                        Click the button below to run a UPI test payment.
+                    </div>
 
                     <div class="button-go-bak-link-container">
                         <div class="payment-button-container">
                             <button class="form-payment-button"> Process Payment</button>
                         </div>
                         <div class="go-back-link">
-                            <a href="#">Go back</a>
+                            <a href="..//index.html">Go back</a>
                         </div>
                     </div>
                 </form>
@@ -113,30 +109,40 @@
 
      <!--footer-->
     <div class="footer">
-        <div class="footer-topic"><a href="../index.html">The Green Trees Initiative</a> </div>
+
+        <div class="footer-topic">
+            <a href="index.html" data-key="footerTitle">KrishiMitra</a>
+        </div>
+
         <div class="contact-us-container">
-            <div class="contact-us-topic">CONTACT US</div>
-            <div class="contact-us-address">123 Anywhere St. Cityname, NY 11206 (123) 456-7890 contact@npo.org</div>
+            <div class="contact-us-topic" data-key="contactUs">CONTACT US</div>
+            <div class="contact-us-address" data-key="contactAddress">
+                Nainital,  Uttarakhand (+91) 7906588926 mail@gmail.com
+            </div>
         </div>
+
         <div class="follow-us-container">
-            <div class="follow-us-topic">FOLLOW US</div>
+            <div class="follow-us-topic" data-key="followUs">FOLLOW US</div>
             <div class="follow-us-list">
-                <div>Facebook</div>
-                <div>Twitter</div>
-                <div>Instagram</div>
-                <div>Medium</div>
+                <div data-key="followFacebook">Facebook</div>
+                <div data-key="followTwitter">Twitter</div>
+                <div data-key="followInstagram">Instagram</div>
+                <div data-key="followMedium">Medium</div>
             </div>
         </div>
+
         <div class="learn-more-container">
-            <div class="learn-more-topic">LINKS</div>
+            <div class="learn-more-topic" data-key="learnMore">LINKS</div>
             <div class="learn-more-list">
-                <div>The issue</div>
-                <div>How we help</div>
-                <div>Get involved</div>
-                <div>Latest news</div>
+                <div data-key="linkIssue">The issue</div>
+                <div data-key="linkHelp">How we help</div>
+                <div data-key="linkInvolved">Get involved</div>
+                <div data-key="linkNews">Latest news</div>
             </div>
         </div>
-        <div class="stop-climate-change-topic">#stop climate change</div>
+
+        <div class="support-indian-farmers-topic" data-key="footerClimate">#support indian farmers</div>
+
     </div>
 </div>
 
